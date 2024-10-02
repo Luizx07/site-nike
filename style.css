@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin: 20px;
+    font-size: 125%;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+}
+
+.usuario img {
+    width: 50px;
+    margin-right: 10px;
+}.tenis {
+    background-color: red;
+    padding: 30px;
+    margin: 20px auto;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 30%;
+}
+
+.tenis img {
+    width: 1000px;
+}
+
+.detalhes_produto {
+    background-color: aqua;
+}
+
+.detalhes_produto h1 {
+    font-size: 24px;
+}
+
+.detalhes_produto p {
+    margin: 1px ;
+}
+.detalhes_produto button{
+    margin-bottom: 40px;
+}
+
+.preço {
+    font-size: 36px;
+    color: red;
+    margin: 10px;
+}
+
+.detalhes_produto button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+}
+.palheta_de_cor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.palheta_de_cor div {
+    width: 60px;
+    height: 60px;
+    border-radius: 75%;
+    margin:  10px;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-black {
+    background-color: black;
+}
+
+.color-gray {
+    background-color: gray;
+}
