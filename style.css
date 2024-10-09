@@ -51,7 +51,6 @@ header ul li a {
 }
 
 .detalhes_produto {
-    background-color: aqua;
     width: 30%;
     transform: translate(110vh, -40vh);
 }
@@ -64,16 +63,16 @@ header ul li a {
     margin: 20px ;
     font-size: 20;
 }
-.detalhes_produto button{
+.preço {
+    font-size: 50px;
+    color: red;
+    display: flex;
+    transform: translate(110vh, -40vh);
+}
+.preço button{
     margin-bottom: 100px;
 }
-
-.preço {
-    font-size: 36px;
-    color: red;
-}
-
-.detalhes_produto button {
+.preço button {
     background-color: #000;
     color: white;
     padding: 20px;
@@ -92,11 +91,11 @@ header ul li a {
     margin:  5px;
 }
 
-.cor-red {
+.cor-vermelho {
     background-color: red;
 }
 
-.cor-black {
+.cor-preto {
     background-color: black;
 }
 
