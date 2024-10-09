@@ -38,28 +38,31 @@ header ul li a {
     margin-right: 10px;
 }.tenis {
     background-color: #E6EDE5;
-    margin: 80px 400px;  
+    margin: 100px 400px;  
     display: flex;
     border-radius: 40vh;
     max-width: 40%;
 }
 
 .tenis img {
-    width: 1000px;
+    width: 1500px;
     transform: rotate(-20deg);
-    margin-top: -10%;
+    margin-top: 0%;
 }
 
 .detalhes_produto {
     background-color: aqua;
+    width: 30%;
+    transform: translate(110vh, -40vh);
 }
 
 .detalhes_produto h1 {
-    font-size: 24px;
+    font-size: 70px;
 }
 
 .detalhes_produto p {
     margin: 20px ;
+    font-size: 20;
 }
 .detalhes_produto button{
     margin-bottom: 100px;
@@ -68,7 +71,6 @@ header ul li a {
 .preço {
     font-size: 36px;
     color: red;
-
 }
 
 .detalhes_produto button {
