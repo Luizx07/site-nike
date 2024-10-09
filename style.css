@@ -68,6 +68,7 @@ header ul li a {
     color: red;
     display: flex;
     transform: translate(110vh, -40vh);
+    margin: auto;
 }
 .preço button{
     margin-bottom: 100px;
@@ -87,11 +88,12 @@ header ul li a {
 .palheta_de_cor div {
     width: 60px;
     height: 60px;
-    border-radius: 85%;
-    margin:  5px;
+    border-radius: 55%;
+    margin: 10px;
+    margin-right: auto;
 }
 
-.cor-vermelho {
+.cor-vermelha {
     background-color: red;
 }
 
@@ -99,6 +101,6 @@ header ul li a {
     background-color: black;
 }
 
-.cor-gray {
+.cor-cinza {
     background-color: gray;
 }
